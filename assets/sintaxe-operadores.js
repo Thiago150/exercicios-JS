@@ -29,6 +29,6 @@ function criaSegundaFrase(num1, num2){
         reusltado20 = 'maior';
     }
 
-    return 'Sua soma é ${soma}, que é ${resultado10} que 10 e ${resultado20} que 20.';
+    return  `Sua soma é ${ soma } , que é ${ compara10 } do que 10 e ${ compara20 } do que 20.` ;
 }
 console.log(comparaNumeros(1, 2));
