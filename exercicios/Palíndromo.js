@@ -5,11 +5,14 @@ function verificarPalindromo(string) {
 }
 
 function verificarPalindromo(string) {
-    if (!string) return "string inexistente";
+    if (!string) return "string inexPaistente";
 
     for(let i = 0; i < string.length / 2; i++) {
-        if(string[i] !== string.length - 1 - i)
+        if(string[i] !== string.length - 1 - i) {
+            return false;
+        }
     }
+    return true;
 }
 
 
