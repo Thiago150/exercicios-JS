@@ -19,4 +19,4 @@ function verificarPalindromo(string) {
 
 
 
-console.log(verificarPalindromo("ovo"));
+console.log(verificarPalindromo("thiago"));
